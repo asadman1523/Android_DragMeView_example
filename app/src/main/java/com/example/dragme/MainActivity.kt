@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
 
         val dragMeView = findViewById<DragMeView>(R.id.dragMeView)
         findViewById<Button>(R.id.btnDrag).setOnClickListener {
-           dragMeView.MODE = DragMeView.Mode.MOVE
+            dragMeView.MODE = DragMeView.Mode.MOVE
         }
         findViewById<Button>(R.id.btnScale).setOnClickListener {
             dragMeView.MODE = DragMeView.Mode.SCALE
